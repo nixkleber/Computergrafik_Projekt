@@ -1,11 +1,653 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a2eb574-98de-4191-b1ea-1448664ca2f3" name="Changes" comment="" />
+    <list default="true" id="8a2eb574-98de-4191-b1ea-1448664ca2f3" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Tripfive-EX.fontsettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Tripfive-EX.fontsettings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Tripfive-HS.fontsettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Tripfive-HS.fontsettings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Tripfive-OL.fontsettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Tripfive-OL.fontsettings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Tripfive.fontsettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Tripfive.fontsettings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Collectible.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Collectible.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/GameArea.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/GameArea.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/MonsterBody.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/MonsterBody.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/MonsterHead.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/MonsterHead.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/PlayerBody.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/PlayerBody.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/PlayerHead.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/PlayerHead.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Geometry.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Geometry/Asteroids.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Geometry/Asteroids.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Geometry/Earth.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Geometry/Earth.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Geometry/Earth_Lod.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Geometry/Earth_Lod.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Geometry/Ring.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Geometry/Ring.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/Skybox.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/Skybox.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/Sun FX.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/Sun FX.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Asteroid.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Asteroid.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Earth_2k.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Earth_2k.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Earth_Lod.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Earth_Lod.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Jupiter_2k.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Jupiter_2k.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Jupiter_Lod.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Jupiter_Lod.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Mars_2k.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Mars_2k.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Mars_Lod.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Mars_Lod.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Mercury_2k.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Mercury_2k.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Mercury_Lod.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Mercury_Lod.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Moon_2k.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Moon_2k.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Moon_Lod.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Moon_Lod.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Neptune_2k.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Neptune_2k.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Neptune_Lod.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Neptune_Lod.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Pluto_2k.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Pluto_2k.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Pluto_Lod.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Pluto_Lod.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Saturn_2k.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Saturn_2k.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Saturn_Lod.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Saturn_Lod.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Saturn_Ring.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Saturn_Ring.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Sun Sphere.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Sun Sphere.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Sun.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Sun.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Sun_Smoke.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Sun_Smoke.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Uranus_2k.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Uranus_2k.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Uranus_Lod.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Uranus_Lod.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Venus_2k.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Venus_2k.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Venus_Lod.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Materials/URP_Venus_Lod.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Asteroids Belt.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Asteroids Belt.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Asteroids Sphere.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Asteroids Sphere.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Earth.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Earth.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Jupiter.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Jupiter.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Mars.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Mars.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Mercury.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Mercury.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Moon.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Moon.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Nebula_00.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Nebula_00.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Nebula_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Nebula_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Neptune.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Neptune.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Pluto.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Pluto.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Saturn.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Saturn.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Sun Sphere.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Sun Sphere.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Sun.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Sun.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Uranus.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Uranus.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Venus.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Prefabs/Venus.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Scenes/Overview.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Scenes/Overview.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Settings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Settings/POTSS_PostProcess_Profile.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Settings/POTSS_PostProcess_Profile.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Settings/POTSS_UniversalRP.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Settings/POTSS_UniversalRP.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Settings/POTSS_UniversalRP_Renderer.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Settings/POTSS_UniversalRP_Renderer.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Shaders/Planet.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Shaders/Planet.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/FX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/FX/Cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/FX/Cloud.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/FX/milkyway_2048.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/FX/milkyway_2048.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Asteroids.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Asteroids.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Earth_4k.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Earth_4k.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Earth_Lod.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Earth_Lod.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Jupiter_2k.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Jupiter_2k.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Jupiter_Lod.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Jupiter_Lod.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Mars_2k.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Mars_2k.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Mars_Lod.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Mars_Lod.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Mercury_2k.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Mercury_2k.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Mercury_Lod.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Mercury_Lod.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Moon_2k.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Moon_2k.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Moon_Lod.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Moon_Lod.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Neptune_2k.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Neptune_2k.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Neptune_Lod.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Neptune_Lod.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Pluto_2k.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Pluto_2k.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Pluto_Lod.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Pluto_Lod.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Saturn_2k.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Saturn_2k.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Saturn_Lod.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Saturn_Lod.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Saturn_Ring.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Saturn_Ring.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Uranus_2k.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Uranus_2k.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Uranus_Lod.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Uranus_Lod.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Venus_2K.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Venus_2K.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Venus_Lod.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Planets of the Solar System 3D/Textures/Planets/Venus_Lod.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectablePrefab.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectablePrefab.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MonsterObject.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MonsterObject.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/PlayerObject.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/PlayerObject.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Renderer/New Universal Render Pipeline Asset.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Renderer/New Universal Render Pipeline Asset.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Renderer/New Universal Render Pipeline Asset_Renderer.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Renderer/New Universal Render Pipeline Asset_Renderer.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Renderer/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Renderer/UniversalRenderPipelineGlobalSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/3DSkybox.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/3DSkybox.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/3DSkybox.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/3DSkybox/3DSkyboxProfile.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/3DSkybox/3DSkyboxProfile.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/3DSkybox/LightingData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/3DSkybox/LightingData.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/3DSkybox/ReflectionProbe-0.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/3DSkybox/ReflectionProbe-0.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/3DSkyboxPipeline.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/3DSkyboxPipeline.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Animation/3DSkyboxAnimation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Animation/3DSkyboxAnimation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Animation/Main Camera.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Animation/Main Camera.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/BaseRenderer.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/BaseRenderer.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Materials/Building.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Materials/Building.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Materials/HighBuilding.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Materials/HighBuilding.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Materials/Planet 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Materials/Planet 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Materials/Planet 2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Materials/Planet 2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Prefabs/HighDetailBlock.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Prefabs/HighDetailBlock.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Prefabs/LowDetailBlock.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Prefabs/LowDetailBlock.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Prefabs/MediumDetailBlock.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Prefabs/MediumDetailBlock.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Scripts/SkyboxCamera.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Scripts/SkyboxCamera.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Shaders/SkyPlanet.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/Shaders/SkyPlanet.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/SkyboxRenderer.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/3D Skybox/SkyboxRenderer.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/MixedFOV.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/MixedFOV/MixedFOV.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/MixedFOV/MixedFOV.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/MixedFOV/MixedFOV.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/MixedFOV/MixedFOV/LightingData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/MixedFOV/MixedFOV/LightingData.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/MixedFOV/MixedFOV/Lightmap-0_comp_dir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/MixedFOV/MixedFOV/Lightmap-0_comp_dir.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/MixedFOV/MixedFOV/Lightmap-0_comp_light.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/MixedFOV/MixedFOV/Lightmap-0_comp_light.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/MixedFOV/MixedFOV/MixedFOVSettings.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/MixedFOV/MixedFOV/MixedFOVSettings.lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/MixedFOV/MixedFOV/ReflectionProbe-0.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/MixedFOV/MixedFOV/ReflectionProbe-0.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/MixedFOV/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/MixedFOV/Prefabs/Gun.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/MixedFOV/Prefabs/Gun.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/SplitScreen.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/SplitScreen/SplitScreen.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/SplitScreen/SplitScreen.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/SplitScreen/SplitScreen.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/SplitScreen/SplitScreen/PostProcessingVolume Profile.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/SplitScreen/SplitScreen/PostProcessingVolume Profile.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/SplitScreen/SplitScreen/SplitScreenPPUISettings.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/CameraStacking/SplitScreen/SplitScreen/SplitScreenPPUISettings.lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/BlobShadow.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/BlobShadow/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/BlobShadow/Animation/BlobShadowAnimation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/BlobShadow/Animation/BlobShadowAnimation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/BlobShadow/Animation/Capsule.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/BlobShadow/Animation/Capsule.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/BlobShadow/BlobShadow.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/BlobShadow/BlobShadow.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/BlobShadow/BlobShadow.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/BlobShadow/BlobShadow/LightingData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/BlobShadow/BlobShadow/LightingData.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/BlobShadow/BlobShadow/ReflectionProbe-0.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/BlobShadow/BlobShadow/ReflectionProbe-0.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/BlobShadow/BlobShadowPipeline.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/BlobShadow/BlobShadowPipeline.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/BlobShadow/BlobShadowPipeline_Renderer.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/BlobShadow/BlobShadowPipeline_Renderer.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/BlobShadow/BlobShadow_Graph.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/BlobShadow/BlobShadow_Graph.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/BlobShadow/BlobShadow_Mat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/BlobShadow/BlobShadow_Mat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/PaintSplat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/PaintSplat/PaintSplat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/PaintSplat/PaintSplat.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/PaintSplat/PaintSplat.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/PaintSplat/PaintSplat/LightingData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/PaintSplat/PaintSplat/LightingData.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/PaintSplat/PaintSplat/ReflectionProbe-0.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/PaintSplat/PaintSplat/ReflectionProbe-0.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/PaintSplat/PaintSplatPipeline.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/PaintSplat/PaintSplatPipeline.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/PaintSplat/PaintSplatPipeline_Renderer.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/PaintSplat/PaintSplatPipeline_Renderer.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/PaintSplat/PaintSplat_Graph.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/PaintSplat/PaintSplat_Graph.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/PaintSplat/PaintSplat_Mat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/PaintSplat/PaintSplat_Mat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/PaintSplat/WorldSpaceUV.shadersubgraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/PaintSplat/WorldSpaceUV.shadersubgraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/ProxyLighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/ProxyLighting/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/ProxyLighting/Materials/BlueSpotlight.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/ProxyLighting/Materials/BlueSpotlight.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/ProxyLighting/Materials/Spotlight.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/ProxyLighting/Materials/Spotlight.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/ProxyLighting/Materials/Wall.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/ProxyLighting/Materials/Wall.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/ProxyLighting/ProxyLighting.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/ProxyLighting/ProxyLighting.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline_Renderer.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline_Renderer.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/ProxyLighting/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/ProxyLighting/Shaders/PointLight_Graph.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/ProxyLighting/Shaders/PointLight_Graph.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/ProxyLighting/Shaders/SpotLightProxy_Graph.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Decals/ProxyLighting/Shaders/SpotLightProxy_Graph.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/Animation/Main Camera.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/Animation/Main Camera.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/Animation/SunFlareAnimation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/Animation/SunFlareAnimation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/17-270mm.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/17-270mm.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/50mm.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/50mm.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Anamorphic_Sci-Fi.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Anamorphic_Sci-Fi.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Anamorphic_Sci-Fi2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Anamorphic_Sci-Fi2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Anamorphic_Streak.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Anamorphic_Streak.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Arena_80s.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Arena_80s.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Caustic.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Caustic.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Caustic2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Caustic2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Sci-Fi.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Sci-Fi.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Shapes.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Shapes.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Simple.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Simple.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Smartphone_Smudged.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Smartphone_Smudged.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Sun.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlarePresets/Sun.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlareShowroom.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/LensFlareShowroom.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/Scripts/ScreenSpacePlacement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/Scripts/ScreenSpacePlacement.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/SunFlare.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/SunFlare.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/SunFlare.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/SunFlare/LightingData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/SunFlare/LightingData.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/SunFlare/ReflectionProbe-0.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/SunFlare/ReflectionProbe-0.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/Textures/PartialRIng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/Textures/PartialRIng.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/Textures/Ring.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/Textures/Ring.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/Textures/Shimmer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/LensFlares/Textures/Shimmer.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/AmbientOcclusion.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/AmbientOcclusion/AmbientOcclusion.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/AmbientOcclusion/AmbientOcclusion.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/AmbientOcclusion/AmbientOcclusion.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/AmbientOcclusion/AmbientOcclusion/LightingData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/AmbientOcclusion/AmbientOcclusion/LightingData.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/AmbientOcclusion/AmbientOcclusion/LightingSettings.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/AmbientOcclusion/AmbientOcclusion/LightingSettings.lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/AmbientOcclusion/AmbientOcclusion/ReflectionProbe-0.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/AmbientOcclusion/AmbientOcclusion/ReflectionProbe-0.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/AmbientOcclusion/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/AmbientOcclusion/Animation/Main Camera.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/AmbientOcclusion/Animation/Main Camera.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/AmbientOcclusion/Animation/SSAO.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/AmbientOcclusion/Animation/SSAO.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/AmbientOcclusion/SSAO_Pipeline.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/AmbientOcclusion/SSAO_Pipeline.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/AmbientOcclusion/SSAO_Renderer.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/AmbientOcclusion/SSAO_Renderer.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/GlitchEffect.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/GlitchEffect/GlitchEffect.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/GlitchEffect/GlitchEffect.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/GlitchEffect/GlitchEffect.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/GlitchEffect/GlitchEffect/GlitchLightingSettings.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/GlitchEffect/GlitchEffect/GlitchLightingSettings.lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/GlitchEffect/GlitchEffect/LightingData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/GlitchEffect/GlitchEffect/LightingData.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/GlitchEffect/GlitchEffect/ReflectionProbe-0.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/GlitchEffect/GlitchEffect/ReflectionProbe-0.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/GlitchEffect/Glitch_Graph.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/GlitchEffect/Glitch_Graph.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/GlitchEffect/Glitch_Material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/GlitchEffect/Glitch_Material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/GlitchEffect/Glitch_Pipeline.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/GlitchEffect/Glitch_Pipeline.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/GlitchEffect/Glitch_Renderer.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/GlitchEffect/Glitch_Renderer.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/KeepFrame.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/KeepFrame/AdditiveParticle.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/KeepFrame/AdditiveParticle.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/KeepFrame/KeepFrame.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/KeepFrame/KeepFrame.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/KeepFrame/KeepFrameFeature.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/KeepFrame/KeepFrameFeature.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/KeepFrame/KeepFramePipeline.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/KeepFrame/KeepFramePipeline.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/KeepFrame/KeepFramePipeline_Renderer.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/KeepFrame/KeepFramePipeline_Renderer.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/KeepFrame/SwirlyFrame.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/KeepFrame/SwirlyFrame.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/KeepFrame/SwirlyFrame_Graph.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/KeepFrame/SwirlyFrame_Graph.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/Animation/MovingCubeAnimation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/Animation/MovingCubeAnimation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/Animation/MovinigCube.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/Animation/MovinigCube.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/Dither_Graph.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/Dither_Graph.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/Dither_Material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/Dither_Material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/OcclusionEffect.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/OcclusionEffect.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/OcclusionEffect.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/OcclusionEffect/LightingData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/OcclusionEffect/LightingData.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/OcclusionEffect/OcclusionEffectSettings.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/OcclusionEffect/OcclusionEffectSettings.lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/OcclusionEffect/ReflectionProbe-0.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/OcclusionEffect/ReflectionProbe-0.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/OcclusionEffectPipeline.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/OcclusionEffectPipeline.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/OcclusionEffect_Renderer.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/OcclusionEffect/OcclusionEffect_Renderer.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/Animation/KeepFrame.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/Animation/KeepFrame.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/Animation/Sphere.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/Animation/Sphere.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/DepthHistory_Renderer.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/DepthHistory_Renderer.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/DepthNormal.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/DepthNormal.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/Sand.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/Sand.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/SandBoxModel.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/SandBoxModel.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/Shaders/DepthColor_graph.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/Shaders/DepthColor_graph.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/Shaders/Sand_Graph.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/Shaders/Sand_Graph.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/Shaders/TrailMap.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/Shaders/TrailMap.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/TrailEffect.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/TrailEffect.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/TrailEffect.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/TrailEffect/LightingData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/TrailEffect/LightingData.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/TrailEffect/ReflectionProbe-0.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/TrailEffect/ReflectionProbe-0.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/TrailEffect_Pipeline.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/TrailEffect_Pipeline.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/TrailEffect_Renderer.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/TrailEffect_Renderer.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/TrailMap.renderTexture" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/TrailMap.renderTexture.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/TrailMapDisplay.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/RendererFeatures/TrailEffect/TrailMapDisplay.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Lit.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Lit.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Lit.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Lit/LightingData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Lit/LightingData.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Lit/LitLighting.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Lit/LitLighting.lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Lit/ReflectionProbe-0.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Lit/ReflectionProbe-0.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Lit/ReflectionProbe-1.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Lit/ReflectionProbe-1.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/BaseMap.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/BaseMap.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/BaseRed.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/BaseRed.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/BaseWhite.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/BaseWhite.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/BlueEmission.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/BlueEmission.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/EmissionMap.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/EmissionMap.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/EmissionOn.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/EmissionOn.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/HeightMapOn.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/HeightMapOn.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/MetallicMap.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/MetallicMap.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/MetallicOn.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/MetallicOn.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/MetallicOne.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/MetallicOne.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/MetallicSmoothnessZero.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/MetallicSmoothnessZero.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/NormalMapOn.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/NormalMapOn.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/OcclusionOn.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/OcclusionOn.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/SmoothnessOne.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/SmoothnessOne.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/WithHeightMap.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/WithHeightMap.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/WithNormalMap.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/WithNormalMap.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/WithOcclusion.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/WithOcclusion.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/WithoutNormalMap.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Materials/WithoutNormalMap.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Models/UVSphere.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Models/UVSphere.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Prefabs/2Podium.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Prefabs/2Podium.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Prefabs/3Podium.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Prefabs/3Podium.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Prefabs/4Podium.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Prefabs/4Podium.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Prefabs/5Podium.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Prefabs/5Podium.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Prefabs/6Podium.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Prefabs/6Podium.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Textures/Coins_Base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Textures/Coins_Base.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Textures/Coins_Emission.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Textures/Coins_Emission.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Textures/Coins_Height.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Textures/Coins_Height.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Textures/Coins_Metallic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Textures/Coins_Metallic.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Textures/Coins_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Textures/Coins_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Textures/Coins_Occlusion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/Shaders/Lit/Textures/Coins_Occlusion.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Fonts/Lato-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Fonts/Lato-Regular.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/Blue.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/Blue.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/CheckerFloor.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/CheckerFloor.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/DarkGray.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/DarkGray.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/Floor.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/Floor.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/Green.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/Green.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/LightGray.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/LightGray.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/MatteCheckerFloor.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/MatteCheckerFloor.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/Orange.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/Orange.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/Text.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/Text.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/Wall.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/Wall.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/White.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/White.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/Yellow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Materials/Yellow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Prefabs/FirstPersonPlayer.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Prefabs/FirstPersonPlayer.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Prefabs/MainPanel.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Prefabs/MainPanel.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Scripts/AutoLoadPipelineAsset.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Scripts/AutoLoadPipelineAsset.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Scripts/FirstPersonController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Scripts/FirstPersonController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Settings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Settings/Global Volume Profile.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Settings/Global Volume Profile.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Settings/SamplesForwardRenderer.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Settings/SamplesForwardRenderer.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Settings/SamplesPipelineAsset.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Settings/SamplesPipelineAsset.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Shaders/3DText.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Shaders/3DText.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Shaders/GradientRemap_Graph.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Shaders/GradientRemap_Graph.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Shaders/URPMainLight_Graph.shadersubgraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Shaders/URPMainLight_Graph.shadersubgraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Shaders/Wall_Graph.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Shaders/Wall_Graph.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Sky.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Sky.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Textures/Checker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/Textures/Checker.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Universal RP/12.1.7/URP Package Samples/SharedAssets/VolumeProfiles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/CollectableShader.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/CollectableShader.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/GameAreaShader.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/GameAreaShader.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/MonsterShader.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/MonsterShader.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/PlayerShader.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/PlayerShader.shadergraph.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/user/GIT/ComputerGrafikProjekt - Copy/Assets/Scenes/GameScene.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -71,7 +713,7 @@
       <updated>1669884522269</updated>
       <workItem from="1669884554498" duration="1065000" />
       <workItem from="1669885726759" duration="409000" />
-      <workItem from="1669886540261" duration="25000" />
+      <workItem from="1669886540261" duration="537000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1669884734640</created>
@@ -87,7 +729,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669884767542</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1669886613130</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669886613130</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first commit">
+      <created>1669886939556</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669886939556</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
