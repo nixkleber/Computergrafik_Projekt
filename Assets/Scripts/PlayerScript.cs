@@ -1,6 +1,8 @@
 using System;
+using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.VFX;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -10,10 +12,19 @@ public class PlayerScript : MonoBehaviour
 
     private Rigidbody _rigidbody;
 
+    private GameObject[] boostParticles;
+
     void Start()
     {
         _rigidbody = gameObject.GetComponent<Rigidbody>();
         _rigidbody.drag = glide;
+
+        boostParticles = GameObject.FindGameObjectsWithTag("Boost");
+
+        foreach (GameObject boostParticle in boostParticles)
+        {
+            boostParticle.SetActive(false);
+        }
     }
 
     private void FixedUpdate()
@@ -38,14 +49,54 @@ public class PlayerScript : MonoBehaviour
 
     private void Move()
     {
+
         if(Input.GetKey(KeyCode.Space))
         {
-            //transform.Translate(Vector3.forward * (Time.deltaTime * movingSpeed));
             _rigidbody.AddRelativeForce(Vector3.forward * boost);
+
+            foreach (GameObject boostParticle in boostParticles)
+            {
+                boostParticle.SetActive(true);
+            }
+        }
+        else if (Input.GetKey(KeyCode.LeftShift))
+        {
+            _rigidbody.AddRelativeForce(Vector3.forward * boost * 50);
+            
+            foreach (GameObject boostParticle in boostParticles)
+            {
+                // VFXExposedProperty.
+                
+                boostParticle.SetActive(true);
+            }
         }
         else
         {
-            
+            foreach (GameObject boostParticle in boostParticles)
+            {
+                boostParticle.SetActive(false);
+            }
         }
     }
+    
+    
+    
+    public static GameObject[] FindGameObjectInChildWithTag (GameObject parent, string tag)
+    {
+        GameObject[] childrenWithTag = new GameObject[] { };
+        
+        Transform t = parent.transform;
+ 
+        for (int i = 0; i < t.childCount; i++) 
+        {
+            if(t.GetChild(i).gameObject.tag == tag)
+            {
+                childrenWithTag.Append(t.GetChild(i).gameObject);
+            }
+                 
+        }
+             
+        return childrenWithTag;
+    }
+
 }
