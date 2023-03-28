@@ -10,7 +10,6 @@ public class CameraScript : MonoBehaviour
 
     void Start()
     {
-        //_offsetVector = new Vector3(0, 0, -3f);
         _offsetVector = transform.position - target.transform.localPosition;
     }
     
