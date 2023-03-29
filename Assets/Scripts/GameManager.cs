@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     
     [SerializeField] private int currentLevel = 1;
 
-    private int _level1Score = 0;
+    [SerializeField] private GameObject controlManager;
 
     // Start is called before the first frame update
     void Start()
@@ -57,10 +57,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void IncreaseLevel1Score()
+    public void Level1Complete()
     {
-        _level1Score++;
-        
+        // Increase the current level and load the next level
+        currentLevel++;
+        LoadLevel(currentLevel);
         
     }
     

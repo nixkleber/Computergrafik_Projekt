@@ -1,12 +1,13 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
+using Vector3 = UnityEngine.Vector3;
 
 public class Level1Script : MonoBehaviour
 {
     [SerializeField] private GameObject[] rings;
 
+    [SerializeField] private UIManager uiManager;
+    
     private int _currentRingIndex = 0;
     
     // Start is called before the first frame update
@@ -26,7 +27,14 @@ public class Level1Script : MonoBehaviour
     {
         GameObject ring = GameObject.FindWithTag("Ring");
 
-        if (ring == null)
+        if (_currentRingIndex == rings.Length - 1)
+        {
+            uiManager.SetTarget(Vector3.zero);
+            gameObject.SetActive(false);
+            
+            FindObjectOfType<GameManager>().Level1Complete();
+        }
+        else if (ring == null)
         {
             _currentRingIndex++;
             EnableRing(_currentRingIndex);
@@ -45,6 +53,7 @@ public class Level1Script : MonoBehaviour
     private void EnableRing(int index)
     {
         rings[index].SetActive(true);
+        uiManager.SetTarget(rings[index].transform.position);
     }
 
 }
