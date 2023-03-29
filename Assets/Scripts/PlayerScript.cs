@@ -1,22 +1,26 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.VFX;
 
 public class PlayerScript : MonoBehaviour
 {
-    [SerializeField] private float boost = 10f;
-    [SerializeField] private float turboBoost = 50f;
+    [SerializeField] private float boost = 1f;
+    [SerializeField] private float turboBoost = 500f;
     [SerializeField] private float rotationSpeed = 60f;
     [SerializeField] private float glide = 1f;
 
     private Rigidbody _rigidbody;
     private List<GameObject> _boostParticles = new List<GameObject>();
 
+    [SerializeField] private GameObject ringAuraPrefab;
+
     [SerializeField] private GameObject missilePrefab;
-    [SerializeField] private float missileSpeed = 1f;
-    [SerializeField] private float missileLifetime = 10f;
-    [SerializeField] private Vector3 missileOffset = new Vector3(0, -0.2f, 0);
+    [SerializeField] private float missileInitialVelocity = 1f;
+    [SerializeField] private float missileLifetime = 20f;
+    [SerializeField] private Vector3 missileOffset = new(0, -0.2f, 0);
 
     private GameObject _missile;
 
@@ -34,27 +38,33 @@ public class PlayerScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
-            // Instantiate the missile below the spaceship
-            Vector3 missilePosition = transform.position - missileOffset;
-            _missile = Instantiate(missilePrefab, missilePosition, Quaternion.identity);
-
-            // Set the missile's parent to the spaceship
-            _missile.transform.SetParent(transform);
+            DeployMissile();
         }
         else if (Input.GetKeyUp(KeyCode.F))
         {
-            // Fire the missile in a straight line
-            Rigidbody missileRigidbody = _missile.GetComponent<Rigidbody>();
-            missileRigidbody.AddForce(transform.forward * missileSpeed, ForceMode.Impulse);
-
-            // Remove the missile's parent to make it move independently
-            _missile.transform.SetParent(null);
-
-            // Destroy the missile after the lifetime expires
-            StartCoroutine(DestroyAfterTime(_missile, missileLifetime));
+            FireMissile();
         }
     }
 
+    private void DeployMissile()
+    {
+        Vector3 missilePosition = transform.position - missileOffset;
+        _missile = Instantiate(missilePrefab, missilePosition, Quaternion.identity);
+
+        _missile.transform.SetParent(transform);
+    }
+
+    private void FireMissile()
+    {
+        _missile.transform.GetComponent<MissileScript>().PlayLaunchSound();
+
+        Rigidbody missileRigidbody = _missile.GetComponent<Rigidbody>();
+        missileRigidbody.AddForce(transform.forward * missileInitialVelocity, ForceMode.Impulse);
+
+        _missile.transform.SetParent(null);
+
+        StartCoroutine(DestroyAfterTime(_missile, missileLifetime));
+    }
 
     private void FixedUpdate()
     {
@@ -79,9 +89,9 @@ public class PlayerScript : MonoBehaviour
 
     private void Turn()
     {
-        float rotationHorizontal = Input.GetAxis("Horizontal") * Time.deltaTime * rotationSpeed;
-        float rotationVertical = Input.GetAxis("Vertical") * Time.deltaTime * rotationSpeed;
-        float rolling = Input.GetAxis("Rotate") * Time.deltaTime * rotationSpeed;
+        float rotationHorizontal = Input.GetAxis("Horizontal") * Time.fixedDeltaTime * rotationSpeed;
+        float rotationVertical = Input.GetAxis("Vertical") * Time.fixedDeltaTime * rotationSpeed;
+        float rolling = Input.GetAxis("Rotate") * Time.fixedDeltaTime * rotationSpeed;
 
         transform.Rotate(rotationVertical, rotationHorizontal, rolling);
     }
@@ -94,12 +104,12 @@ public class PlayerScript : MonoBehaviour
         if (isBoosting)
         {
             _rigidbody.AddRelativeForce(Vector3.forward * boost);
-            ActivateBoostParticles();
+            ActivateBoostParticles(false);
         }
         else if (isTurboBoosting)
         {
-            _rigidbody.AddRelativeForce(Vector3.forward * boost * turboBoost);
-            ActivateTurboBoostParticles();
+            _rigidbody.AddRelativeForce(Vector3.forward * turboBoost);
+            ActivateBoostParticles(true);
         }
         else
         {
@@ -107,23 +117,24 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
-    private void ActivateBoostParticles()
+    private void ActivateBoostParticles(bool turbo)
     {
         foreach (GameObject boostParticle in _boostParticles)
         {
-            boostParticle.GetComponent<VisualEffect>().SetVector3("Velocity", new Vector3(0, 0.02f, 0));
-            boostParticle.GetComponent<VisualEffect>().SetInt("SpawnRate", 32);
-            boostParticle.GetComponent<VisualEffect>().SendEvent("onPlay");
-        }
-    }
+            VisualEffect vfx = boostParticle.GetComponent<VisualEffect>();
 
-    private void ActivateTurboBoostParticles()
-    {
-        foreach (GameObject boostParticle in _boostParticles)
-        {
-            boostParticle.GetComponent<VisualEffect>().SetVector3("Velocity", new Vector3(0, 0.10f, 0));
-            boostParticle.GetComponent<VisualEffect>().SetInt("SpawnRate", 64);
-            boostParticle.GetComponent<VisualEffect>().SendEvent("onPlay");
+            if (turbo)
+            {
+                vfx.SetVector3("Velocity", new Vector3(0, 0.10f, 0));
+                vfx.GetComponent<VisualEffect>().SetInt("SpawnRate", 64);
+            }
+            else
+            {
+                vfx.SetVector3("Velocity", new Vector3(0, 0.03f, 0));
+                vfx.GetComponent<VisualEffect>().SetInt("SpawnRate", 32);
+            }
+
+            vfx.GetComponent<VisualEffect>().SendEvent("onPlay");
         }
     }
 
@@ -132,6 +143,19 @@ public class PlayerScript : MonoBehaviour
         foreach (GameObject boostParticle in _boostParticles)
         {
             boostParticle.GetComponent<VisualEffect>().SendEvent("onStop");
+        }
+    }
+
+    private void OnTriggerExit(Collider collider)
+    {
+        if (collider.gameObject.CompareTag("Ring"))
+        {
+            collider.gameObject.SetActive(false);
+            
+            GameObject ringAura = Instantiate(ringAuraPrefab, transform.position, transform.rotation);
+            ringAura.transform.SetParent(transform);
+
+            Destroy(ringAura, 2f);
         }
     }
 }

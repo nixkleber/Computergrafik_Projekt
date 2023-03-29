@@ -7,7 +7,7 @@ using UnityEngine;
 public class SolarSystemScript : MonoBehaviour
 {
     private float G = 100f;
-    private GameObject[] _celestialBodies;
+    private List<GameObject> _celestialBodies;
 
     [SerializeField] private float sizeMultiplier = 10;
     [SerializeField] private float positionMultiplier = 1000;
@@ -16,7 +16,7 @@ public class SolarSystemScript : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        _celestialBodies = GameObject.FindGameObjectsWithTag("CelestialBody");
+        _celestialBodies = new List<GameObject>(GameObject.FindGameObjectsWithTag("CelestialBody"));
 
         InitializePlanets();
     
@@ -31,12 +31,21 @@ public class SolarSystemScript : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Gravity();
-
-        foreach (GameObject planet in _celestialBodies)
+        for (int i = _celestialBodies.Count - 1; i >= 0; i--)
         {
-            planet.transform.Rotate(Vector3.up);
+            GameObject planet = _celestialBodies[i];
+
+            if (planet == null)
+            {
+                _celestialBodies.RemoveAt(i);
+            }
+            else
+            {
+                planet.transform.Rotate(Vector3.up);
+            }
         }
+        
+        Gravity();
     }
 
     private readonly Dictionary<string, (float, Vector3)> _planetData = new Dictionary<string, (float, Vector3)>()

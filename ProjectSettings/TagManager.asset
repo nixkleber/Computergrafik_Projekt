@@ -11,6 +11,8 @@ TagManager:
   - TrackingObject
   - CelestialBody
   - Boost
+  - Missile
+  - Ring
   layers:
   - Default
   - TransparentFX
