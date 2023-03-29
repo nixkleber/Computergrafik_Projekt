@@ -17,6 +17,7 @@ public class PlayerScript : MonoBehaviour
 
     [SerializeField] private GameObject ringAuraPrefab;
 
+    [SerializeField] private bool missileActive = false;
     [SerializeField] private GameObject missilePrefab;
     [SerializeField] private float missileInitialVelocity = 1f;
     [SerializeField] private float missileLifetime = 20f;
@@ -36,13 +37,16 @@ public class PlayerScript : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (missileActive)
         {
-            DeployMissile();
-        }
-        else if (Input.GetKeyUp(KeyCode.F))
-        {
-            FireMissile();
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                DeployMissile();
+            }
+            else if (Input.GetKeyUp(KeyCode.F))
+            {
+                FireMissile();
+            }
         }
     }
 
@@ -151,7 +155,7 @@ public class PlayerScript : MonoBehaviour
         if (collider.gameObject.CompareTag("Ring"))
         {
             collider.gameObject.SetActive(false);
-            
+
             GameObject ringAura = Instantiate(ringAuraPrefab, transform.position, transform.rotation);
             ringAura.transform.SetParent(transform);
 
