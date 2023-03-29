@@ -2213,12 +2213,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abfe604994f30a74e9f21faf07832bbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiManager: {fileID: 1327612182}
   level1: {fileID: 842056087}
   level2: {fileID: 737477287}
   level3: {fileID: 468519498}
   currentLevel: 1
-  controlManager: {fileID: 305292279}
+  controlManager: {fileID: 1135341239}
   player: {fileID: 1394590942}
 --- !u!1 &1705519309
 GameObject:
