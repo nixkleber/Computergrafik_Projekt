@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private UIManager uiManager;
-    
     [SerializeField] private GameObject level1;
     [SerializeField] private GameObject level2;
     [SerializeField] private GameObject level3;
@@ -16,6 +14,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int currentLevel = 1;
 
     [SerializeField] private GameObject controlManager;
+    [SerializeField] private GameObject player;
 
     // Start is called before the first frame update
     void Start()
@@ -62,7 +61,8 @@ public class GameManager : MonoBehaviour
         // Increase the current level and load the next level
         currentLevel++;
         LoadLevel(currentLevel);
-        
+        controlManager.GetComponent<ControlPanelScript>().ShowTurboBoost();
+        player.GetComponent<PlayerScript>().ActivateTurboBoost();
     }
     
 }

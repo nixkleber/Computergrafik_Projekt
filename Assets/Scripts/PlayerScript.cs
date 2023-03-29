@@ -23,6 +23,8 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private float missileLifetime = 20f;
     [SerializeField] private Vector3 missileOffset = new(0, -0.2f, 0);
 
+    [SerializeField] private bool turboBoostActive;
+    
     private GameObject _missile;
 
     private void Start()
@@ -110,7 +112,7 @@ public class PlayerScript : MonoBehaviour
             _rigidbody.AddRelativeForce(Vector3.forward * boost);
             ActivateBoostParticles(false);
         }
-        else if (isTurboBoosting)
+        else if (isTurboBoosting && turboBoostActive)
         {
             _rigidbody.AddRelativeForce(Vector3.forward * turboBoost);
             ActivateBoostParticles(true);
@@ -121,6 +123,16 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
+    public void ActivateMissiles()
+    {
+        missileActive = true;
+    }
+
+    public void ActivateTurboBoost()
+    {
+        turboBoostActive = true;
+    }
+    
     private void ActivateBoostParticles(bool turbo)
     {
         foreach (GameObject boostParticle in _boostParticles)

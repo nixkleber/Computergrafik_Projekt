@@ -27,7 +27,7 @@ public class Level1Script : MonoBehaviour
     {
         GameObject ring = GameObject.FindWithTag("Ring");
 
-        if (_currentRingIndex == rings.Length - 1)
+        if (_currentRingIndex == rings.Length)
         {
             uiManager.SetTarget(Vector3.zero);
             gameObject.SetActive(false);

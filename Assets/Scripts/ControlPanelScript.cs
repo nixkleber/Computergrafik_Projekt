@@ -13,6 +13,9 @@ public class ControlPanelScript : MonoBehaviour
     {
         _turboBoost = transform.Find("TurboBoost").gameObject;
         _missile = transform.Find("Missile").gameObject;
+        
+        _turboBoost.SetActive(false);
+        _missile.SetActive(false);
     }
 
     // Update is called once per frame
@@ -28,8 +31,16 @@ public class ControlPanelScript : MonoBehaviour
             _missile.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = "Hold";
         }
     }
+
+    public void ShowTurboBoost()
+    {
+        _turboBoost.SetActive(true);
+    }
     
-    
+    public void ShowMissile()
+    {
+        _missile.SetActive(true);
+    }
     
     
 }
