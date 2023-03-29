@@ -52,17 +52,33 @@ public class GameManager : MonoBehaviour
             case 2:
                 level2.SetActive(true);
                 break;
+            case 3:
+                level3.SetActive(true);
+                break;
 
         }
     }
 
     public void Level1Complete()
     {
-        // Increase the current level and load the next level
         currentLevel++;
         LoadLevel(currentLevel);
         controlManager.GetComponent<ControlPanelScript>().ShowTurboBoost();
         player.GetComponent<PlayerScript>().ActivateTurboBoost();
+    }
+    
+    public void Level2Complete()
+    {
+        currentLevel++;
+        LoadLevel(currentLevel);
+        controlManager.GetComponent<ControlPanelScript>().ShowMissile();
+        player.GetComponent<PlayerScript>().ActivateMissiles();
+    }
+    
+    public void Level3Complete()
+    {
+        currentLevel++;
+        LoadLevel(currentLevel);
     }
     
 }
