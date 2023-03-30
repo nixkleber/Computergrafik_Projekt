@@ -5,13 +5,14 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private GameObject level0;
     [SerializeField] private GameObject level1;
     [SerializeField] private GameObject level2;
     [SerializeField] private GameObject level3;
 
     private GameObject[] _levels;
     
-    [SerializeField] private int currentLevel = 1;
+    [SerializeField] private int currentLevel = 0;
 
     [SerializeField] private GameObject controlManager;
     [SerializeField] private GameObject player;
@@ -19,7 +20,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _levels = new[] { level1, level2, level3 };
+        _levels = new[] { level0, level1, level2, level3 };
         
         LoadLevel(currentLevel);
     }
@@ -27,7 +28,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //
     }
 
     private void FixedUpdate()
@@ -45,40 +46,37 @@ public class GameManager : MonoBehaviour
         switch (level)
         {
             case 0:
+                controlManager.GetComponent<ControlPanelScript>().SetLevelInstruction("Fly through the ring to start level 1!");
+                level0.SetActive(true);
                 break;
             case 1:
+                controlManager.GetComponent<ControlPanelScript>().SetLevelInstruction("Level 1: Fly through all the rings!");
                 level1.SetActive(true);
                 break;
             case 2:
+                controlManager.GetComponent<ControlPanelScript>().ShowTurboBoost();
+                player.GetComponent<PlayerScript>().ActivateTurboBoost();
+                
                 level2.SetActive(true);
                 break;
             case 3:
+                controlManager.GetComponent<ControlPanelScript>().ShowTurboBoost();
+                player.GetComponent<PlayerScript>().ActivateTurboBoost();
+                
+                controlManager.GetComponent<ControlPanelScript>().ShowMissile();
+                player.GetComponent<PlayerScript>().ActivateMissiles();
+                
                 level3.SetActive(true);
                 break;
 
         }
     }
 
-    public void Level1Complete()
-    {
-        currentLevel++;
-        LoadLevel(currentLevel);
-        controlManager.GetComponent<ControlPanelScript>().ShowTurboBoost();
-        player.GetComponent<PlayerScript>().ActivateTurboBoost();
-    }
-    
-    public void Level2Complete()
-    {
-        currentLevel++;
-        LoadLevel(currentLevel);
-        controlManager.GetComponent<ControlPanelScript>().ShowMissile();
-        player.GetComponent<PlayerScript>().ActivateMissiles();
-    }
-    
-    public void Level3Complete()
+    public void LevelComplete()
     {
         currentLevel++;
         LoadLevel(currentLevel);
     }
+
     
 }

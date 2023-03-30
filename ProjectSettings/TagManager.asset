@@ -13,6 +13,8 @@ TagManager:
   - Boost
   - Missile
   - Ring
+  - RingLevel0
+  - Asteroid
   layers:
   - Default
   - TransparentFX

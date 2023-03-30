@@ -102,15 +102,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 897fe0f91ca00784e9c5d44ff7bdc3c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 100
   boost: 10
   turboBoost: 50
   rotationSpeed: 60
   glide: 1
-  ringAuraPrefab: {fileID: 0}
+  ringAuraPrefab: {fileID: 7053385775836331393, guid: b56365c66a4079545a823a5d4dd0de42, type: 3}
+  healthDecreasePrefab: {fileID: 6126188424833946103, guid: 9520785f77c96e5499ab77e1a766707f, type: 3}
+  healthIncreasePrefab: {fileID: 7155335147208632822, guid: 84586f07473862e439b837d4d7799b2c, type: 3}
+  missileActive: 0
   missilePrefab: {fileID: 1259865673663102, guid: 8b227e0429c621940acb9e2e8d18d12f, type: 3}
   missileInitialVelocity: 1
   missileLifetime: 10
   missileOffset: {x: 0, y: 2, z: 0}
+  turboBoostActive: 0
 --- !u!1 &1103032090283561607
 GameObject:
   m_ObjectHideFlags: 0

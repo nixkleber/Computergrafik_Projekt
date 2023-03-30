@@ -45,7 +45,7 @@ public class Level1Script : MonoBehaviour
     {
         uiManager.SetTarget(Vector3.zero);
         gameObject.SetActive(false);
-        FindObjectOfType<GameManager>().Level1Complete();
+        FindObjectOfType<GameManager>().LevelComplete();
     }
 
 
