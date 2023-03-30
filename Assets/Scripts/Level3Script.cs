@@ -2,23 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Level2Script : MonoBehaviour
+public class Level3Script : MonoBehaviour
 {
-    [SerializeField] private GameObject collectable;
-
     [SerializeField] private UIManager uiManager;
+
+    private GameObject _jupiter;
     
-    // Start is called before the first frame update
     void Start()
     {
-        uiManager.SetTarget(collectable.transform.position);
+        _jupiter = GameObject.Find("Jupiter");
+        
     }
 
     private void FixedUpdate()
     {
-        if (!collectable.activeSelf)
+        if (_jupiter == null)
         {
             LevelComplete();
+        }
+        else
+        {
+            uiManager.SetTarget(_jupiter.transform.position);
         }
     }
 

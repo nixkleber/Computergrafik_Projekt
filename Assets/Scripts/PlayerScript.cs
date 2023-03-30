@@ -8,7 +8,7 @@ using UnityEngine.VFX;
 public class PlayerScript : MonoBehaviour
 {
     [SerializeField] private int health = 100;
-    
+
     [SerializeField] private float boost = 1f;
     [SerializeField] private float turboBoost = 500f;
     [SerializeField] private float rotationSpeed = 60f;
@@ -20,15 +20,16 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private GameObject ringAuraPrefab;
     [SerializeField] private GameObject healthDecreasePrefab;
     [SerializeField] private GameObject healthIncreasePrefab;
+    [SerializeField] private GameObject upgradePrefab;
 
     [SerializeField] private bool missileActive = false;
     [SerializeField] private GameObject missilePrefab;
     [SerializeField] private float missileInitialVelocity = 1f;
     [SerializeField] private float missileLifetime = 20f;
     [SerializeField] private Vector3 missileOffset = new(0, -0.2f, 0);
-    
+
     [SerializeField] private bool turboBoostActive;
-    
+
     private GameObject _missile;
 
     private void Start()
@@ -136,7 +137,7 @@ public class PlayerScript : MonoBehaviour
     {
         turboBoostActive = true;
     }
-    
+
     private void ActivateBoostParticles(bool turbo)
     {
         foreach (GameObject boostParticle in _boostParticles)
@@ -185,20 +186,28 @@ public class PlayerScript : MonoBehaviour
         {
             health -= 5;
             FindObjectOfType<ControlPanelScript>().SetHealth(health);
-            GameObject healthDecrease = Instantiate(healthDecreasePrefab, transform.position, transform.rotation);
-            healthDecrease.transform.SetParent(transform);
+            GameObject healthDecreaseAura = Instantiate(healthDecreasePrefab, transform.position, transform.rotation);
+            healthDecreaseAura.transform.SetParent(transform);
 
-            Destroy(healthDecrease, 2f);
+            Destroy(healthDecreaseAura, 3f);
         }
-        
-        if (collision.gameObject.CompareTag("CelestialBody"))
+        else if (collision.gameObject.CompareTag("CelestialBody"))
         {
             health -= 10;
             FindObjectOfType<ControlPanelScript>().SetHealth(health);
-            GameObject healthDecrease = Instantiate(healthDecreasePrefab, transform.position, transform.rotation);
-            healthDecrease.transform.SetParent(transform);
+            GameObject healthDecreaseAura = Instantiate(healthDecreasePrefab, transform.position, transform.rotation);
+            healthDecreaseAura.transform.SetParent(transform);
 
-            Destroy(healthDecrease, 2f);
+            Destroy(healthDecreaseAura, 3f);
+        }
+        else if (collision.gameObject.CompareTag("Collectable"))
+        {
+            collision.gameObject.SetActive(false);
+            
+            GameObject upgradeAura = Instantiate(upgradePrefab, transform.position, transform.rotation);
+            upgradeAura.transform.SetParent(transform);
+
+            Destroy(upgradeAura, 3f);
         }
     }
 }

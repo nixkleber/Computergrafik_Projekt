@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -24,18 +21,7 @@ public class GameManager : MonoBehaviour
         
         LoadLevel(currentLevel);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        //
-    }
-
-    private void FixedUpdate()
-    {
-        
-    }
-
+    
     private void LoadLevel(int level)
     {
         foreach (GameObject levelObject in _levels)
@@ -54,12 +40,16 @@ public class GameManager : MonoBehaviour
                 level1.SetActive(true);
                 break;
             case 2:
+                controlManager.GetComponent<ControlPanelScript>().SetLevelInstruction("Level 2: Collect the weapon!");
+                
                 controlManager.GetComponent<ControlPanelScript>().ShowTurboBoost();
                 player.GetComponent<PlayerScript>().ActivateTurboBoost();
                 
                 level2.SetActive(true);
                 break;
             case 3:
+                controlManager.GetComponent<ControlPanelScript>().SetLevelInstruction("Level 3: Destroy jupiter!");
+
                 controlManager.GetComponent<ControlPanelScript>().ShowTurboBoost();
                 player.GetComponent<PlayerScript>().ActivateTurboBoost();
                 
