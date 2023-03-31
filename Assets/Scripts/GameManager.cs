@@ -1,72 +1,85 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private GameObject level0;
-    [SerializeField] private GameObject level1;
-    [SerializeField] private GameObject level2;
-    [SerializeField] private GameObject level3;
-
-    private GameObject[] _levels;
-    
-    [SerializeField] private int currentLevel = 0;
-
+    [SerializeField] private GameObject[] levels;
     [SerializeField] private GameObject controlManager;
+    [SerializeField] private GameObject storyBoard;
     [SerializeField] private GameObject player;
-
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private int currentLevel = 0;
+    
+    Dictionary<int, string> levelStories = new ()
     {
-        _levels = new[] { level0, level1, level2, level3 };
-        
-        LoadLevel(currentLevel);
+        {1, "Story Level 1"},
+        {2, "Story Level 2"},
+        {3, "Story Level 3"},
+        {4, "Story Level 4"},
+        {5, "Story Level 5"},
+
+    };
+
+    private void Start()
+    {
+        LoadNextLevel();
     }
     
-    private void LoadLevel(int level)
+    private void LoadNextLevel()
     {
-        foreach (GameObject levelObject in _levels)
+        foreach (GameObject levelObject in levels)
         {
             levelObject.SetActive(false);
         }
 
-        switch (level)
+        switch (currentLevel)
         {
             case 0:
                 controlManager.GetComponent<ControlPanelScript>().SetLevelInstruction("Fly through the ring to start level 1!");
-                level0.SetActive(true);
                 break;
             case 1:
+                storyBoard.SetActive(true);
+                storyBoard.GetComponent<StoryBoardScript>().ShowLevelStory(levelStories[1]);
                 controlManager.GetComponent<ControlPanelScript>().SetLevelInstruction("Level 1: Fly through all the rings!");
-                level1.SetActive(true);
                 break;
             case 2:
+                storyBoard.SetActive(true);
+                storyBoard.GetComponent<StoryBoardScript>().ShowLevelStory(levelStories[2]);
                 controlManager.GetComponent<ControlPanelScript>().SetLevelInstruction("Level 2: Collect the weapon!");
-                
                 controlManager.GetComponent<ControlPanelScript>().ShowTurboBoost();
                 player.GetComponent<PlayerScript>().ActivateTurboBoost();
-                
-                level2.SetActive(true);
-                break;
+                break; 
             case 3:
-                controlManager.GetComponent<ControlPanelScript>().SetLevelInstruction("Level 3: Destroy jupiter!");
-
+                storyBoard.SetActive(true);
+                storyBoard.GetComponent<StoryBoardScript>().ShowLevelStory(levelStories[3]);
+                controlManager.GetComponent<ControlPanelScript>().SetLevelInstruction("Level 3: Destroy Jupiter!");
                 controlManager.GetComponent<ControlPanelScript>().ShowTurboBoost();
                 player.GetComponent<PlayerScript>().ActivateTurboBoost();
-                
                 controlManager.GetComponent<ControlPanelScript>().ShowMissile();
                 player.GetComponent<PlayerScript>().ActivateMissiles();
-                
-                level3.SetActive(true);
                 break;
-
+            case 4:
+                storyBoard.SetActive(true);
+                storyBoard.GetComponent<StoryBoardScript>().ShowLevelStory(levelStories[4]);
+                controlManager.GetComponent<ControlPanelScript>().SetLevelInstruction("Level 4: Destroy the enemy!");
+                controlManager.GetComponent<ControlPanelScript>().ShowTurboBoost();
+                player.GetComponent<PlayerScript>().ActivateTurboBoost();
+                controlManager.GetComponent<ControlPanelScript>().ShowMissile();
+                player.GetComponent<PlayerScript>().ActivateMissiles();
+                break;
         }
+        
+    }
+
+    public void ActivateLevel()
+    {
+        levels[currentLevel].SetActive(true);
     }
 
     public void LevelComplete()
     {
         currentLevel++;
-        LoadLevel(currentLevel);
+        LoadNextLevel();
     }
-
-    
 }

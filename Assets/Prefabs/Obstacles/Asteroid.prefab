@@ -59,6 +59,7 @@ GameObject:
   - component: {fileID: 8246601556686751676}
   - component: {fileID: 1896637940168825488}
   - component: {fileID: 1842272295492128428}
+  - component: {fileID: -7506247874882825857}
   m_Layer: 0
   m_Name: Asteroid
   m_TagString: Asteroid
@@ -176,3 +177,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 4514a249f7ca7d44b8eb4cbd48174504, type: 3}
+--- !u!114 &-7506247874882825857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822345149752838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a443aa1b65bb9043ac45bdea5d30d62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
