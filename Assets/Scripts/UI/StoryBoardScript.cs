@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class StoryBoardScript : MonoBehaviour
 {
-    [SerializeField] private float delayBetweenChars = 0.1f;
+    [SerializeField] private float delayBetweenChars = 0.01f;
 
     private string storyText;
 
